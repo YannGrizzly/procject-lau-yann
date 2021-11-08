@@ -90,7 +90,7 @@
                             </div>
                             <div> 
                                 <p class="text-accent" style="margin-bottom: 0.5rem;">Body Text</p>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. </p>
+                                <p class="fs-200">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. </p>
                             </div> 
                         </div>
                     </div>
@@ -111,26 +111,27 @@
                         <p class="system-description">Different States of Navigation Bar</p>
                     </div>
                     
-                    <div class="flex">
-                        <div style="margin-top: 5rem">
+                    <div class="flex" style="justify-content: space-around; margin-top: 5rem">
+                        <div class="flow">
                             <!-- explore button -->
                             <a href="#" class="large-button uppercase ff-serif fs-600 text-dark bg-white">Explore</a>
                             <p class="system-description">Landing Page Main Button - Idle</p>
-                            <a href="#" class="large-button uppercase ff-serif fs-600 text-dark bg-white">Explore</a>
+                            <a href="#" class="large-button-hover uppercase ff-serif fs-600 text-dark bg-white" style="margin-top: 10rem;">Explore</a>
+                            <p class="system-description" style="margin-top: 5rem">Landing Page Main Button - Hover</p>
                         </div>
-                        <p class="system-description">Landing Page Main Button - Hover</p>
+                        
 
-                        <div class="flow" style="margin-bottom: 5vh; --flow-space: 4rem">
+                        <div class="flow" style="--flow-space: 10.5em">
                             <!-- Tabs -->
                             <div class="tab-list underline-indicators flex">
                                 <button aria-selected="true" class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Moon</button>
                                 <button aria-selected="false" class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Mars</button>
                                 <button aria-selected="false" class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Europa</button>
                             </div>
-                            <p class="system-description">Tabs(Active, Hover & Idle)</p>
+                            <p class="system-description">Tabs (Active, Hover & Idle)</p>
                             
                             <!-- Dots -->
-                            <div class="dot-indicators flex">
+                            <div class="dot-indicators flex" style="justify-content: center;">
                                 <button aria-selected="true"><span class="sr-only">Slide title</span></button>
                                 <button aria-selected="false"><span class="sr-only">Slide title</span></button>
                                 <button aria-selected="false"><span class="sr-only">Slide title</span></button>
@@ -139,7 +140,7 @@
 
                             <!-- Numbers -->
 
-                            <div class="number-indicators flex" style="flex-direction: column;">
+                            <div class="number-indicators flex" style="--gap: 2rem;">
                                 <button aria-selected="true" class="ff-serif">1</button>
                                 <button aria-selected="false" class="ff-serif">2</button>
                                 <button aria-selected="false" class="ff-serif">3</button>
@@ -152,7 +153,9 @@
                 </section>
             </div>
 
-            <footer></footer>
+            <div>
+                <img class="img-planet" src="assets/crew/background-crew-desktop.jpg" alt="planet">
+            </div>
 
         <script src="index.pack.js"></script>
     </body>
